@@ -1,0 +1,27 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form-control {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    border: none;
+    margin-top: 10px;
+}
+
+/* Style for the form container */
+.col-md-4 {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

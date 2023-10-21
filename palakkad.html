@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Palakkad</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            background-color: #0074e4;
+            padding: 20px;
+            margin: 0;
+        }
+
+        h2 {
+            color: #0074e4;
+            font-size: 24px;
+            margin: 20px 0;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        ul {
+            list-style: disc;
+            margin-left: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            background-color: #333;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .image-carousel {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .carousel-images {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+        }
+
+        .carousel-image {
+            flex: 0 0 auto;
+            scroll-snap-align: start;
+            max-width: 300px;
+            height: auto;
+            border: 5px solid #fff;
+            border-radius: 15px;
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+
+        .carousel-image:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Palakkad</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#attractions">Tourist Attractions</a></li>
+            <li><a href="#artforms">Art Forms</a></li>
+            <li><a href="#products">Famous Products</a></li>
+            <li><a href="#climate">Climate</a></li>
+        </ul>
+    </nav>
+
+    <div class="image-carousel">
+        <div class="carousel-images">
+            <img class="carousel-image" src="palakkad_image1.jpg" alt="Image 1">
+            <img class="carousel-image" src="palakkad_image2.jpg" alt="Image 2">
+            <img class="carousel-image" src="palakkad_image3.jpg" alt="Image 3">
+            <img class="carousel-image" src="palakkad_image4.jpg" alt="Image 4">
+            <img class="carousel-image" src="palakkad_image5.jpg" alt="Image 5">
+            <img class="carousel-image" src="palakkad_image6.jpg" alt="Image 6">
+        </div>
+    </div>
+
+    <section id="about">
+        <h2>About Palakkad</h2>
+        <p>
+            Palakkad, often referred to as the "Gateway of Kerala," is a charming city in the southern Indian state of Kerala. It is known for its picturesque landscapes, rich cultural heritage, and historical significance.
+        </p>
+    </section>
+
+    <section id="attractions">
+        <h2>Tourist Attractions</h2>
+        <ul>
+            <li>Palakkad Fort</li>
+            <li>Silent Valley National Park</li>
+            <li>Malampuzha Dam</li>
+            <li>Nelliyampathy Hill Station</li>
+        </ul>
+    </section>
+
+    <section id="artforms">
+        <h2>Art Forms</h2>
+        <p>
+            Palakkad is renowned for its traditional art forms, including Kathakali and Mohiniyattam. These classical dance forms are integral to the cultural heritage of the region.
+        </p>
+    </section>
+
+    <section id="products">
+        <h2>Famous Products</h2>
+        <p>
+            Palakkad is famous for its agricultural products, particularly rice and spices. The region is known for its high-quality rice varieties and a wide range of aromatic spices.
+        </p>
+    </section>
+
+    <section id="climate">
+        <h2>Climate</h2>
+        <p>
+            Palakkad enjoys a tropical wet and dry climate. It experiences hot and dry weather during the summer months and relatively cooler and wetter conditions during the monsoon season.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Palakkad Tourism</p>
+    </footer>
+</body>
+</html>

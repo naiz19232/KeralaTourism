@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kannur</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            background-color: #0074e4;
+            padding: 20px;
+            margin: 0;
+        }
+
+        h2 {
+            color: #0074e4;
+            font-size: 24px;
+            margin: 20px 0;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        ul {
+            list-style: disc;
+            margin-left: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            background-color: #333;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .image-carousel {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .carousel-images {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+        }
+
+        .carousel-image {
+            flex: 0 0 auto;
+            scroll-snap-align: start;
+            max-width: 300px;
+            height: auto;
+            border: 5px solid #fff;
+            border-radius: 15px;
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+
+        .carousel-image:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Kannur</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#attractions">Tourist Attractions</a></li>
+            <li><a href="#culture">Culture</a></li>
+            <li><a href="#famouspersons">Famous Persons</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#colleges">Colleges</a></li>
+            <li><a href="#map">Map</a></li>
+        </ul>
+    </nav>
+
+    <div class="image-carousel">
+        <div class="carousel-images">
+            <img class="carousel-image" src="kannur_image1.jpg" alt="Image 1">
+            <img class="carousel-image" src="kannur_image2.jpg" alt="Image 2">
+            <img class="carousel-image" src="kannur_image3.jpg" alt="Image 3">
+            <img class="carousel-image" src="kannur_image4.jpg" alt="Image 4">
+            <img class="carousel-image" src="kannur_image5.jpg" alt="Image 5">
+            <img class="carousel-image" src="kannur_image6.jpg" alt="Image 6">
+        </div>
+    </div>
+
+    <section id="about">
+        <h2>About Kannur</h2>
+        <p>
+            Kannur, also known as Cannanore, is a coastal city in the southern Indian state of Kerala. It is known for its pristine beaches, historic forts, and rich cultural heritage.
+        </p>
+    </section>
+
+    <section id="attractions">
+        <h2>Tourist Attractions</h2>
+        <ul>
+            <li>St. Angelo Fort</li>
+            <li>Muzhappilangad Drive-in Beach</li>
+            <li>Theyyam Performances</li>
+            <li>Aralam Wildlife Sanctuary</li>
+        </ul>
+    </section>
+
+    <section id="culture">
+        <h2>Culture</h2>
+        <p>
+            Kannur is famous for its unique cultural art form called Theyyam, which is a traditional ritualistic dance. The city also celebrates various festivals with great enthusiasm.
+        </p>
+    </section>
+
+    <section id="famouspersons">
+        <h2>Famous Persons</h2>
+        <p>
+            Kannur has been the birthplace of notable personalities, including renowned poet Sukumar Azhikode and the famous Malayalam writer Kamala Surayya (Madhavikutty).
+        </p>
+    </section>
+
+    <section id="events">
+        <h2>Events</h2>
+        <p>
+            Kannur hosts a variety of events, including the Theyyam festival, which showcases the traditional art form. The city also celebrates cultural and religious festivals with grand processions.
+        </p>
+    </section>
+
+    <section id="colleges">
+        <h2>Colleges</h2>
+        <p>
+            Kannur is home to several prestigious educational institutions, including Government College Kannur, Kannur University, and many others that offer a wide range of courses.
+        </p>
+    </section>
+
+    <section id="map">
+        <h2>Map</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1534.1367685367606!2d75.37430820893639!3d11.867347139987671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba385415a83197f%3A0x9580b5c96f4818d0!2sKannur%2C%20Kerala!5e0!3m2!1sen!2sin!4v1665045673760!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Kannur Tourism</p>
+    </footer>
+</body>
+</html>
