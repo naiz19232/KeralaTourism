@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wayanad</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            background-color: #0074e4;
+            padding: 20px;
+            margin: 0;
+        }
+
+        h2 {
+            color: #0074e4;
+            font-size: 24px;
+            margin: 20px 0;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        ul {
+            list-style: disc;
+            margin-left: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            background-color: #333;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .image-carousel {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .carousel-images {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+        }
+
+        .carousel-image {
+            flex: 0 0 auto;
+            scroll-snap-align: start;
+            max-width: 300px;
+            height: auto;
+            border: 5px solid #fff;
+            border-radius: 15px;
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+
+        .carousel-image:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Wayanad</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#attractions">Tourist Attractions</a></li>
+            <li><a href="#culture">Culture</a></li>
+            <li><a href="#artforms">Art Forms</a></li>
+            <li><a href="#products">Famous Products</a></li>
+        </ul>
+    </nav>
+
+    <div class="image-carousel">
+        <div class="carousel-images">
+            <img class="carousel-image" src="wayanad_image1.jpg" alt="Image 1">
+            <img class="carousel-image" src="wayanad_image2.jpg" alt="Image 2">
+            <img class="carousel-image" src="wayanad_image3.jpg" alt="Image 3">
+            <img class="carousel-image" src="wayanad_image4.jpg" alt="Image 4">
+            <img class="carousel-image" src="wayanad_image5.jpg" alt="Image 5">
+            <img class="carousel-image" src="wayanad_image6.jpg" alt="Image 6">
+        </div>
+    </div>
+
+    <section id="about">
+        <h2>About Wayanad</h2>
+        <p>
+            Wayanad is a stunning hill district located in the northern part of Kerala, known for its lush green landscapes, serene waterfalls, and rich biodiversity.
+        </p>
+    </section>
+
+    <section id="attractions">
+        <h2>Tourist Attractions</h2>
+        <ul>
+            <li>Chembra Peak</li>
+            <li>Edakkal Caves</li>
+            <li>Banasura Sagar Dam</li>
+            <li>Thirunelli Temple</li>
+        </ul>
+    </section>
+
+    <section id="culture">
+        <h2>Culture</h2>
+        <p>
+            Wayanad's culture is influenced by its tribal communities. The region celebrates traditional festivals and has a unique tribal dance form known as "Thirayattam."
+        </p>
+    </section>
+
+    <section id="artforms">
+        <h2>Art Forms</h2>
+        <p>
+            Wayanad is known for its traditional art forms, including "Thirayattam" and "Vadakkan Pattu." These art forms are an integral part of the cultural heritage of the region.
+        </p>
+    </section>
+
+    <section id="products">
+        <h2>Famous Products</h2>
+        <p>
+            Wayanad is renowned for its spices, coffee, and tea plantations. The district is famous for its high-quality spices like pepper, cardamom, and cloves, along with aromatic coffee and tea.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Wayanad Tourism</p>
+    </footer>
+</body>
+</html>
